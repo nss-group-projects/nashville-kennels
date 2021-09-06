@@ -1,5 +1,9 @@
 # Nashville Kennels
 
+## Deployed Working App
+
+You can visit the [deployed Nashville Kennels application](https://kennels.nss.team) to see how the application should work.
+
 ## Setup
 
 ### Application
