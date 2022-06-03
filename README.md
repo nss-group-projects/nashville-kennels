@@ -6,9 +6,10 @@ You can visit the [deployed Nashville Kennels application](https://kennels.nss.t
 
 ## Setup
 
-### Application
-
-After cloning the repository, make sure each teammate runs the `npm install` command in the root project directory to install all required 3rd-party tools.
+1. Run `npm install --location=global yarn`. If that doesn't work, try `npm install -g yarn`
+1. Clone the repository and `cd` into the project directory.
+1. Run `yarn install`.
+1. Run `yarn start` to verify that the application compiles and starts in the browser.
 
 ### API
 
@@ -18,30 +19,3 @@ Each teammate should create a **separate** directory in their workspace director
 
 We repeat, **DO NOT CREATE A `database.json` FILE ANYWHERE IN THE APPLICATION REPOSITORY**.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
