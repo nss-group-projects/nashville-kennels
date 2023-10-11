@@ -9,6 +9,7 @@ You can visit the [deployed Nashville Kennels application](https://kennels.nss.t
 1. Run `npm install --location=global yarn`. If that doesn't work, try `npm install -g yarn`
 1. Clone the repository and `cd` into the project directory.
 1. Run `yarn install`.
+1. Run `npm install typescript --save-dev`
 1. Run `yarn start` to verify that the application compiles and starts in the browser.
 
 ### API
